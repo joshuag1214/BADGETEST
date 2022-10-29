@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp-test.dir/human_object_detector_test.cpp.o"
-  "CMakeFiles/cpp-test.dir/human_object_detector_test.cpp.o.d"
+  "CMakeFiles/cpp-test.dir/__/app/human_object_detector.cpp.o"
+  "CMakeFiles/cpp-test.dir/__/app/human_object_detector.cpp.o.d"
   "CMakeFiles/cpp-test.dir/main.cpp.o"
   "CMakeFiles/cpp-test.dir/main.cpp.o.d"
   "CMakeFiles/cpp-test.dir/test.cpp.o"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/linux/Midterm/Joshua/test/BADGETEST/test
+# Install script for directory: /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

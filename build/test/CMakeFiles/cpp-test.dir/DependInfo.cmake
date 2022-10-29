@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/linux/Midterm/Joshua/test/BADGETEST/test/human_object_detector_test.cpp" "test/CMakeFiles/cpp-test.dir/human_object_detector_test.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/human_object_detector_test.cpp.o.d"
-  "/home/linux/Midterm/Joshua/test/BADGETEST/test/main.cpp" "test/CMakeFiles/cpp-test.dir/main.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/main.cpp.o.d"
-  "/home/linux/Midterm/Joshua/test/BADGETEST/test/test.cpp" "test/CMakeFiles/cpp-test.dir/test.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/test.cpp.o.d"
+  "/home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/app/human_object_detector.cpp" "test/CMakeFiles/cpp-test.dir/__/app/human_object_detector.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/__/app/human_object_detector.cpp.o.d"
+  "/home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/test/main.cpp" "test/CMakeFiles/cpp-test.dir/main.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/main.cpp.o.d"
+  "/home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/test/test.cpp" "test/CMakeFiles/cpp-test.dir/test.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/test.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/linux/Midterm/Joshua/test/BADGETEST/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,5 +1,5 @@
 app/CMakeFiles/shell-app.dir/main.cpp.o: \
- /home/linux/Midterm/Joshua/test/BADGETEST/app/main.cpp \
+ /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/app/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -334,4 +334,4 @@ app/CMakeFiles/shell-app.dir/main.cpp.o: \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /home/linux/Midterm/Joshua/test/BADGETEST/include/object_detection.hpp
+ /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/include/object_detection.hpp

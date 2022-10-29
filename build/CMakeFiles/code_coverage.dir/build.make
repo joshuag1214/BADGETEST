@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linux/Midterm/Joshua/test/BADGETEST
+CMAKE_SOURCE_DIR = /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linux/Midterm/Joshua/test/BADGETEST/build
+CMAKE_BINARY_DIR = /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build
 
 # Utility rule file for code_coverage.
 
@@ -67,14 +67,14 @@ include CMakeFiles/code_coverage.dir/compiler_depend.make
 include CMakeFiles/code_coverage.dir/progress.make
 
 CMakeFiles/code_coverage:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/linux/Midterm/Joshua/test/BADGETEST/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Resetting code coverage counters to zero."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Resetting code coverage counters to zero."
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Processing code coverage counters and generating report."
 	/usr/bin/lcov --directory . --zerocounters
 	test/cpp-test
-	/usr/bin/lcov --directory . --capture --output-file /home/linux/Midterm/Joshua/test/BADGETEST/build/coverage.info
-	/usr/bin/lcov --remove /home/linux/Midterm/Joshua/test/BADGETEST/build/coverage.info 'tests/*' '/usr/*' '*vendor/*' --output-file /home/linux/Midterm/Joshua/test/BADGETEST/build/coverage.info.cleaned
-	/usr/bin/genhtml -o coverage /home/linux/Midterm/Joshua/test/BADGETEST/build/coverage.info.cleaned
-	/usr/bin/cmake -E remove /home/linux/Midterm/Joshua/test/BADGETEST/build/coverage.info
+	/usr/bin/lcov --directory . --capture --output-file /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/coverage.info
+	/usr/bin/lcov --remove /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/coverage.info 'tests/*' '/usr/*' '*vendor/*' --output-file /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/coverage.info.cleaned
+	/usr/bin/genhtml -o coverage /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/coverage.info.cleaned
+	/usr/bin/cmake -E remove /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/coverage.info
 
 code_coverage: CMakeFiles/code_coverage
 code_coverage: CMakeFiles/code_coverage.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/code_coverage.dir/clean:
 .PHONY : CMakeFiles/code_coverage.dir/clean
 
 CMakeFiles/code_coverage.dir/depend:
-	cd /home/linux/Midterm/Joshua/test/BADGETEST/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/Midterm/Joshua/test/BADGETEST /home/linux/Midterm/Joshua/test/BADGETEST /home/linux/Midterm/Joshua/test/BADGETEST/build /home/linux/Midterm/Joshua/test/BADGETEST/build /home/linux/Midterm/Joshua/test/BADGETEST/build/CMakeFiles/code_coverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build /home/linux/Midterm/Joshua/test/ENPM808X---Midterm-Project/build/CMakeFiles/code_coverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/code_coverage.dir/depend
 
